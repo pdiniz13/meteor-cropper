@@ -9,6 +9,7 @@ Package.onUse(function (api) {
   api.versionsFrom('0.9.0');
   api.use('jquery', 'client');
   api.imply('jquery', 'client');
+  api.use('pdiniz:canvas-to-blob');
   api.addFiles([
     'cropper/dist/cropper.js',
     'cropper/dist/cropper.css'
